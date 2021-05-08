@@ -1,0 +1,31 @@
+#text1 {
+  font-size: 30px;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+
+#txt2 {
+  font-size: 25px;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+
+.txt3 {
+  background-color: #6911d4;
+  letter-spacing: 3px;
+}
+
+#txxt3 {
+  font-size: 35px;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+  line-height: 60px;
+}
+
+#txt4 {
+  font-size: 30px;
+  color: white;
+  font-family: "roboto", sans-serif;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WIENER.UMZUGSTEAM</title>
+	<link rel="stylesheet" type="text/css" href="preise1.css">
+	<link rel="stylesheet" type="text/css" href="index1.css">
+
+</head>
+<body>
+	<nav>
+	<input id="nav-toggle" type="checkbox">
+	<div class="logo">WIENER.<strong>UMZUGSTEAM</strong></div>
+	<ul class="links">
+		<li><a href="index.html">HOME</a></li>
+		<li><a href=preise.html>PREISE</a></li>
+		<li><a href=kontact.html>KONTAKT</a></li>
+		
+	</ul>
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+</nav>
+
+
+ <section>
+      <div class="container">
+        <div class="section-intro">
+          <h2>Popular Umzugsteam</h2>
+          <div class="section-style"></div>
+        </div>
+        <div class="pricing-table__wrapper">
+          <div class="pricing-cards">
+            <div class="row">
+              <div class="card">
+                <div class="card-pricing__header">
+                  <h4>Normal</h4>
+                  <p>übersiedlungen</p>
+                  <h1 class="card-pricing__price"><span>€</span>40,-/h</h1>
+                </div>
+                <ul class="card-pricing__list">
+                  <li>2 Mann + LKW</li>
+                  <li>Anfahrt, Abfahrt 1 Stunde</li>
+                  <li>2 Stunden Mindestbuchzeit</li>
+                  
+                  
+                  <li>0,50 cent km ausserhalb von Wien</li>
+                </ul>
+                <div class="card-pricing__footer">
+                  <button onclick="togglePopup()" class="button">Select Plan</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-pricing__header">
+                  <h4>Premium</h4>
+                  <p>Übersiedlungen / Entrümepungen / Räumungen</p>
+                  <h1 class="card-pricing__price"><span>€</span>50,-/h</h1>
+                </div>
+                <ul class="card-pricing__list">
+                  <li>3 Mann + LKW</li>
+                  <li>Anfahrt, Abfahrt 1 Stunde</li>
+                  <li>2 Stunden Mindestbuchzeit</li>
+                  
+                  
+                  <li>0,50 cent km ausserhalb von Wien</li>
+                </ul>
+                <div class="card-pricing__footer">
+                  <button onclick="togglePopup2()" class="button">Select Plan</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-pricing__header">
+                  <h4>Normal</h4>
+                  <p>Entrümpelungen/ Räumungen</p>
+                  <h1 class="card-pricing__price"><span>€</span>20,-/h</h1>
+                </div>
+                <ul class="card-pricing__list">
+                  <li>2 Mann + LKW</li>
+                  <li>Anfahrt, Abfahrt 1 Stunde</li>
+                  <li>2 Stunden Mindestbuchzeit</li>
+                  
+                  
+                  <li>0,50 cent km ausserhalb von Wien</li>
+                </ul>
+                <div class="card-pricing__footer">
+                  <button onclick="togglePopup3()" class="button">Select Plan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="popup">
+	<div class="popup-content">
+		<form action="https://formsubmit.co/your@email.com" method="POST">
+			<div class="close-btn" onclick="togglePop()">
+     ×</div>
+					<h2>übersiedlungen</h2>
+					<div class="inputBox">
+						<input type="text" name="name" required>
+						<span>name</span>
+					</div>
+					<div class="inputBox">
+						<input type="text" name="email" required>
+						<span>Telephone</span>
+					</div>
+					<div class="inputBox">
+						<textarea required="required"></textarea>
+						<span>type your message....</span>
+					</div>
+					<div class="inputBox"> <button type="submit">Send</button></div>
+	<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">  
+</form>
+	</div>
+</div>
+
+
+
+<div class="popup2">
+	<div class="popup-content" id="popup-content2">
+		<form action="https://formsubmit.co/gillkaurav@icloud.com" method="POST">
+			<div class="close-btn2" onclick="togglePop2()">
+     ×</div>
+					<h2>Übersiedlungen / Entrümepungen / Räumungen</h2>
+					<div class="inputBox">
+						<input type="text" name="name" required>
+						<span>name</span>
+					</div>
+					<div class="inputBox">
+						<input type="text" name="email" required>
+						<span>Telephone</span>
+					</div>
+					<div class="inputBox">
+						<textarea required="required"></textarea>
+						<span>type your message....</span>
+					</div>
+					<div class="inputBox"> <button type="submit">Send</button></div>
+	<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">  
+</form>
+	</div>
+</div>
+
+
+
+<div class="popup3">
+	<div class="popup-content">
+		<form action="https://formsubmit.co/gillkaurav@icloud.com" method="POST">
+			<div class="close-btn3" onclick="togglePop3()">
+     ×</div>
+					<h2>Entrümpelungen/ Räumungen</h2>
+					<div class="inputBox">
+						<input type="text" name="name" required>
+						<span>name</span>
+					</div>
+					<div class="inputBox">
+						<input type="text" name="email" required>
+						<span>Telephone</span>
+					</div>
+					<div class="inputBox">
+						<textarea required="required"></textarea>
+						<span>type your message....</span>
+					</div>
+					<div class="inputBox"> <button type="submit">Send</button></div>
+	<input type="hidden" name="_next" value="index.html">  
+</form>
+	</div>
+</div>
+
+
+    </section>
+
+
+
+
+<script>
+ function togglePopup() {
+  document.querySelector(".popup").style.display = "flex";
+}
+
+function togglePop() {
+  document.querySelector(".popup").style.display = "none";
+}
+</script>
+
+<script>
+ function togglePopup2() {
+  document.querySelector(".popup2").style.display = "flex";
+}
+
+function togglePop2() {
+  document.querySelector(".popup2").style.display = "none";
+}
+</script>
+
+<script>
+ function togglePopup3() {
+  document.querySelector(".popup3").style.display = "flex";
+}
+
+function togglePop3() {
+  document.querySelector(".popup3").style.display = "none";
+}
+</script>
+
+</body>
+</html>
